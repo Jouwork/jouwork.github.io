@@ -231,3 +231,37 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 }
 
 .description input[type=checkbox]:checked~.description-text { opacity: 1 }
+
+.contenedor {
+/* propiedades obligatorias */
+overflow: hidden;
+position: relative;
+/* propiedades optativas */
+border-radius: 0 0 0 20px;
+background-color: #202931;
+border-bottom: 5px solid #404951;
+border-left: 5px solid #404951;
+color: #FFF;
+margin: 0 auto;
+padding: 30px;
+width: 470px;
+}
+#corner {
+/* lo dimensionamos y lo posicionamos de manera absoluta */
+display: block;
+height: 100px;
+position: absolute;
+width: 100px;
+/* lo rotamos */
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+/* la posición del triangulo*/
+top:-50px;
+right:-50px;
+/* otras propeidades optativas */
+background-color: #A00;
+box-shadow: 0px 0px 50px #000 inset;
+}
+#corner-ad {right: -30px; top: -70px;}
