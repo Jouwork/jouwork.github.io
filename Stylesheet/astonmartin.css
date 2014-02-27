@@ -1,47 +1,44 @@
-h1{background-color:#C0C0C0;
-color:yellow;
-font-style: Franklin Gothic Medium ;
-font-size:80px;}
+.click
+{
+    width: 50px;
+    padding: 5px 10px;
+    background: #952262;
+    color: #fff;
+    text-decoration: none;
+}
 
+img{float:left;}
+#slideDiv
+{
+    height:0;
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+    -webkit-transition:height, 0.5s linear;
+    -moz-transition: height, 0.5s linear;
+    -ms-transition: height, 0.5s linear;
+    -o-transition: height, 0.5s linear;
+    transition: height, 0.5s linear;
+}
 
- * { margin: 0px;
-padding: 0px; outline: 0;
+#slideDiv a
+{
+    position: absolute;
+    right: 0;
+    color: #fff;
+    text-decoration: none;
 }
-html, body { width: 100%;}
 
-body { background: #366;
-font-family: Verdana, Arial, Helvetica, sans-serif;
+#slideDiv:target
+{
+    height: 100%;
+    background: green;
+    color: #fff;
+    -webkit-transition:height, 0.5s linear;
+    -moz-transition: height, 0.5s linear;
+    -ms-transition: height, 0.5s linear;
+    -o-transition: height, 0.5s linear;
+    transition: height, 0.5s linear;
 }
-#menu {  text-align: center;
-font-size: 0.7em;
-width: 820px;
-margin: 20px auto;
-}
-#menu ul { list-style-type: none;}
-#menu ul li.nivel1 { float: left;
-width: 162px;
-margin-right: 2px;
-}
-#menu ul li a {display: block;
-text-decoration: none;
-color: #fff;
-background-color: #399;
-border: solid 1px #fff;
-padding: 8px;
-position: relative;
-}
-#menu ul li:hover {position: relative;
-}
-#menu ul li a:hover, #menu ul li:hover a.nivel1 {background-color: #6CC;
-color: #000;
-position: relative;
-}
-#menu ul li a.nivel1 {display: block!important;display: none;
-position: relative;
-}
-table.falsa {border-collapse:collapse;
-border:0px;
-float: left;
-position: relative;
-}
+
 
