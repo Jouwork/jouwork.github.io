@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-img{float:left;}
+
 #slideDiv
 {
     height:0;
@@ -19,6 +19,7 @@ img{float:left;}
     -ms-transition: height, 0.5s linear;
     -o-transition: height, 0.5s linear;
     transition: height, 0.5s linear;
+    
 }
 
 #slideDiv a
@@ -27,6 +28,7 @@ img{float:left;}
     right: 0;
     color: #fff;
     text-decoration: none;
+    background-color:red;
 }
 
 #slideDiv:target
@@ -39,6 +41,7 @@ img{float:left;}
     -ms-transition: height, 0.5s linear;
     -o-transition: height, 0.5s linear;
     transition: height, 0.5s linear;
+
 }
-
-
+img{float:left;}
+img.hidden {display:none;}
