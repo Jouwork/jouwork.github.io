@@ -1,6 +1,5 @@
 h1 {
      font-size:80px;
-     background-color:#C0C0C0;
      color:black;
      font-style: arial black; 
      }
@@ -9,7 +8,8 @@ h2{  font-size:50px;
      color:#C0C0C0;
 }
 
-body{background-color:black;}
+body{background-image:url("imagenes/Azul-y-verde.jpg");
+background-size:100% 100%;}
      
 @font-face {
      font-family: 'WebSymbolsRegular';
