@@ -4,14 +4,15 @@
     font-family:verdana;}
 header{
     margin:100px auto;
-    width:800px;
+    width:1200px;
     height:230px;
     background-color:red;}
 div.contenedor{
     -webkit-transition: height .4s;
-    width:200px;
+    width:300px;
     height:230px;
-    float:left;}
+    float:left;
+    }
 div#uno{background-color: rgb(288,101,3);}
 div#dos{background-color: rgb(233,147,26);}
 div#tres{background-color: rgb(22,145,190);}
@@ -19,10 +20,13 @@ div#cuatro{background-color: rgb(22,107,162);}
 
 img.icon{display:block;
 margin:50px auto;
-background-color: rgb(255,255,255,.15);
+background-color: rgba(255,255,255,.15);
 width:40px;
 padding:20px;
--webkit-border-radius:50px;}
+-webkit-border-radius:50px;
+-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+-webkit-transition: box-shadow .4s;
+}
 
 p.texto{
     font-size: 1.2em;
@@ -30,8 +34,18 @@ p.texto{
     text-align:center;
     padding-top:10px;
     opacity:.6;
+    -webkit-transition: padding-top .4s;
 }    
 
 div.contenedor:hover{
     height:260px;
+}
+
+div.contenedor:hover p.texto{
+    padding-top:40px;
+    opacity:1;
+}
+
+div.contenedor:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
