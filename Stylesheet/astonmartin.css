@@ -1,71 +1,51 @@
-body {
-  display: block;
-  background-image:url("imagenes/Azul-y-verde.jpg");
-background-size:100% 100%;
-}
-.span3:focus ~ .alert {
-  display: none;
-}
-.span2:focus ~ .alert {
-  display: block;
-}
+*{
+    margin:0px;
+    padding:0px;
+    font-family:verdana;}
+header{
+    margin:100px auto;
+    width:1200px;
+    height:230px;
+    background-color:red;}
+div.contenedor{
+    -webkit-transition: height .4s;
+    width:300px;
+    height:230px;
+    float:left;
+    }
+div#uno{background-color: rgb(288,101,3);}
+div#dos{background-color: rgb(233,147,26);}
+div#tres{background-color: rgb(22,145,190);}
+div#cuatro{background-color: rgb(22,107,162);}
 
-img{float:left}
-
-
-.menu {
-    width: 950px;
-    height: 50px;
-    float: right;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    margin-top: 80px;
-    border: 1px #FFF solid;
-}
-
-.menu #nav {
-    list-style: none;   
-}
-
-.menu #nav li {
-    display: inline-block;
-    padding: 0px 30px 0px 30px;
+img.icon{display:block;
+margin:50px auto;
+background-color: rgba(255,255,255,.15);
+width:40px;
+padding:20px;
+-webkit-border-radius:50px;
+-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+-webkit-transition: box-shadow .4s;
 }
 
-.menu #nav li a {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #FFF;
-    text-decoration: none;
+p.texto{
+    font-size: 1.2em;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    opacity:.6;
+    -webkit-transition: padding-top .4s;
+}    
+
+div.contenedor:hover{
+    height:260px;
 }
 
-.menu #nav li a:hover {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #FFF;
-    text-decoration: none;
-    color: #ca6666;
+div.contenedor:hover p.texto{
+    padding-top:40px;
+    opacity:1;
 }
 
-.menu #nav li a .hover {
-    display:none;
-}
-
-
-.menu li a:hover + .hover {
-    background-image:url(images/hover.png);
-    background-position:center;
-    width: 96px;
-    height: 33px;
-    color: #ca6666;
-    font-weight: bold;  
-    display: block;
-    margin-top: -20px;
-}
-
-.clear {
-    clear: both;
+div.contenedor:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
