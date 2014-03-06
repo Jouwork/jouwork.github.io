@@ -1,6 +1,5 @@
 h1 {
      font-size:80px;
-     background-color:#C0C0C0;
      color:black;
      font-style: arial black; 
      }
@@ -11,7 +10,12 @@ h2{  font-size:50px;
 
 
 
-body{background-color:black;}
+
+
+
+body{background-image:url("imagenes/Azul-y-verde.jpg");
+background-size:100% 100%;}
+
      
 @font-face {
      font-family: 'WebSymbolsRegular';
@@ -19,7 +23,7 @@ body{background-color:black;}
      src: url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.woff') format('woff'), url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.ttf') format('truetype'), url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont#WebSymbolsRegular') format('svg');
  }
 
- @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+ 
  
  * {
      margin: 0;
