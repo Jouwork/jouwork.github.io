@@ -4,12 +4,12 @@
     font-family:verdana;}
 header{
     margin:100px auto;
-    width:1200px;
+    width:800px;
     height:230px;
     background-color:red;}
 div.contenedor{
     -webkit-transition: height .4s;
-    width:300px;
+    width:200px;
     height:230px;
     float:left;
     }
