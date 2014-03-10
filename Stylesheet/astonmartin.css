@@ -1,7 +1,9 @@
 *{
     margin:0px;
     padding:0px;
-    font-family:verdana;}
+    font-family:verdana;
+    background-image:url("imagenes/fondo.jpg");
+    background-size:100% 100%;}
 header{
     margin:100px auto;
     width:800px;
@@ -51,9 +53,61 @@ div.contenedor:hover img.icon{
 }
 
 div.marco{
-    border:5px solid red;
+    border:red 5px inset;
     padding:10px;
     text-align:center;
     padding-top:40px;
-    ;
+    margin:200px auto;
+    background-color:orange;
+    
+  
 }
+
+img.aparecer{
+     -webkit-transition: width  1s;
+     width:10px;
+     height:190px;
+    float:right;
+}
+
+img.aparecer:hover{
+    width:400px;
+}
+
+img.izquierda{
+     -webkit-transition: width  1s;
+     width:10px;
+     height:190px;
+    float:left;
+}
+
+img.izquierda:hover{
+    width:400px;
+}
+
+h1{border:red 5px inset;
+    text-align:center;
+    background-color:orange;
+    font-size:bold;
+}
+
+table.ruben { border: red 5px solid;
+background-color:black;
+color:white;
+-webkit-transition: width  1s;
+-webkit-transition: height  1s;
+width:0px;
+height:0px;
+opacity:.2;
+}
+
+table.ruben:hover{
+    width:700px;
+    height:700px;
+    opacity:1;
+}
+
+
+
+
+
