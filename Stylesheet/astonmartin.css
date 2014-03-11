@@ -2,13 +2,15 @@
     margin:0px;
     padding:0px;
     font-family:verdana;
-    background-image:url("imagenes/fondo.jpg");
-    background-size:100% 100%;}
+}
 header{
     margin:100px auto;
     width:800px;
     height:230px;
-    background-color:red;}
+    background-color:red;
+        background-image:url(../imagenes/fondo.jpg);
+    background-size:100% 100%;
+    }
 div.contenedor{
     -webkit-transition: height .4s;
     width:200px;
@@ -152,3 +154,6 @@ img.oscurecer:hover {
   opacity: 0.2;
   backgroun-color:black;
 }
+
+body{ background-image:url(../imagenes/fondo.jpg);
+background-size:100% 100%;}
