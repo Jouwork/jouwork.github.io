@@ -1,22 +1,26 @@
 *{
     margin:0px;
     padding:0px;
-    font-family:verdana;}
+    font-family:verdana;
+}
 header{
     margin:100px auto;
     width:800px;
     height:230px;
-    background-color:red;}
+    background-color:red;
+        background-image:url(../imagenes/fondo.jpg);
+    background-size:100% 100%;
+    }
 div.contenedor{
     -webkit-transition: height .4s;
     width:200px;
     height:230px;
     float:left;
     }
-div#uno{background-color: rgb(288,101,3);}
-div#dos{background-color: rgb(233,147,26);}
-div#tres{background-color: rgb(22,145,190);}
-div#cuatro{background-color: rgb(22,107,162);}
+div#uno{background-image: url(../imagenes/fondohover.jpg);}
+div#dos{background-image: url(../imagenes/fondohover.jpg);}
+div#tres{background-image: url(../imagenes/fondohover.jpg);}
+div#cuatro{background-image: url(../imagenes/fondohover.jpg);}
 
 img.icon{display:block;
 margin:50px auto;
@@ -28,7 +32,11 @@ padding:20px;
 -webkit-transition: box-shadow .4s;
 }
 
-a.texto{
+a{
+  color:white;  
+}
+
+p.texto{
     font-size: 1.2em;
     color:white;
     text-align:center;
@@ -50,6 +58,102 @@ div.contenedor:hover img.icon{
     -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
 
-#a, #b, #c{
-	display:none;
+
+div.marco{
+    border:red 5px inset;
+    padding:10px;
+    text-align:center;
+    padding-top:40px;
+    margin:200px auto;
+    background-color:orange;
+    font: bold 20px arial; 
+    
+  
 }
+
+img.aparecer{
+     -webkit-transition: width  1s;
+     width:10px;
+     height:190px;
+    float:right;
+}
+
+img.aparecer:hover{
+    width:400px;
+}
+
+img.izquierda{
+     -webkit-transition: width  1s;
+     width:10px;
+     height:190px;
+    float:left;
+}
+
+img.izquierda:hover{
+    width:400px;
+}
+
+h1{border:red 5px inset;
+    text-align:center;
+    background-color:orange;
+    font-size:bold;
+}
+
+table.ruben { border: red 5px solid;
+background-color:black;
+color:white;
+-webkit-transition: width  1s;
+-webkit-transition: height  1s;
+width:0px;
+height:0px;
+opacity:.2;
+}
+
+table.ruben:hover{
+    width:700px;
+    height:700px;
+    opacity:1;
+}
+
+table.ruben3 { border: red 5px solid;
+background-color:black;
+color:white;
+-webkit-transition: width  1s;
+-webkit-transition: height  1s;
+width:0px;
+height:0px;
+opacity:.2;
+}
+
+table.ruben3:hover{
+    width:1400px;
+    height:700px;
+    opacity:1;
+}
+table.rubencorto { border: red 5px solid;
+background-color:black;
+color:white;
+-webkit-transition: width  1s;
+-webkit-transition: height  1s;
+width:0px;
+height:0px;
+opacity:.2;
+}
+
+table.rubencorto:hover{
+    width:300px;
+    height:300px;
+    opacity:1;
+}
+
+img.oscurecer {
+  opacity: 1;
+  -webkit-transition: all .8s ease 0s;
+}
+img.oscurecer:hover {
+  opacity: 0.2;
+  backgroun-color:black;
+}
+
+body{ background-image:url(../imagenes/fondo.jpg);
+background-size:100% 100%;}
