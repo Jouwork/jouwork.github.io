@@ -79,7 +79,7 @@ img.aparecer{
 }
 
 img.aparecer:hover{
-    width:400px;
+    width:300px;
 }
 
 img.izquierda{
@@ -90,7 +90,7 @@ img.izquierda{
 }
 
 img.izquierda:hover{
-    width:400px;
+    width:300px;
 }
 
 h1{border:red 5px inset;
@@ -145,6 +145,24 @@ table.rubencorto:hover{
     height:300px;
     opacity:1;
 }
+
+table.ruben6{
+border: red 5px solid;
+background-color:black;
+color:white;
+-webkit-transition: width  2s;
+-webkit-transition: height  2s;
+width:0px;
+height:0px;
+opacity:.2;
+}
+
+table.ruben6:hover{
+    width:1400px;
+    height:1400px;
+    opacity:1;
+}
+
 
 img.oscurecer {
   opacity: 1;
