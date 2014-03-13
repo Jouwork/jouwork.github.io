@@ -126,7 +126,7 @@ opacity:.2;
 }
 
 table.ruben3:hover{
-    width:1400px;
+    width:1000px;
     height:700px;
     opacity:1;
 }
@@ -158,19 +158,9 @@ opacity:.2;
 }
 
 table.ruben6:hover{
-    width:1200px;
-    height:1400px;
+    width:1000px;
+    height:1000px;
     opacity:1;
-}
-
-
-img.oscurecer {
-  opacity: 1;
-  -webkit-transition: all .8s ease 0s;
-}
-img.oscurecer:hover {
-  opacity: 0.2;
-  backgroun-color:black;
 }
 
 body{ background-image:url(../imagenes/fondo.jpg);
