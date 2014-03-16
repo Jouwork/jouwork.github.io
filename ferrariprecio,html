@@ -1,0 +1,81 @@
+car-styles/Ferrari 
+      
+</title>
+      
+<meta charset="utf-8"> 
+      
+<link rel="stylesheet" href="Stylesheet/astonmartin.css"/>
+   
+</head>
+      
+
+
+<header>
+   
+<div class="contenedor" id="uno">
+       
+<img class="icon" src="iconos/home.png"/>
+       
+<p class="texto"><a href="index.html">Pagina</a></p>
+   
+</div> 
+   
+<div class="contenedor"  id="dos">
+       
+<img class="icon" src="iconos/book-lines.png"/>
+       
+<p class="texto"><a href="ferrarihistoria.html">Historia</a></p>
+   
+</div>
+   
+<div class="contenedor"  id="tres">
+       
+<img class="icon" src="iconos/bulb.png"/>
+       
+<p class="texto"><a href="ferraricaracteristicas.html">Características</a></p>
+
+
+   
+</div>
+   
+<div class="contenedor"  id="cuatro">
+       
+<img class="icon" src="iconos/database.png"/>
+       
+<p class="texto"><a href="ferrariprecio.html">Precios</a></p>
+   
+</div>
+    
+
+</header>
+
+<div class="marco">
+<p><h1>Precios</h1>
+<table class="ruben">
+<tr>
+<td>Modelo</td>
+<td>Precio</td>
+</tr>
+<tr>
+<td>Ferrari F12 Berlinetta</td>
+<td>309.437€</td>
+</tr>
+<tr>
+<td>Enzo Ferrari</td>
+<td>Desde 457.023€</td>
+</tr>
+<tr>
+<td>Ferrari California</td>
+<td>209.355€</td>
+</tr>
+<tr>
+<td>Ferrari 458 Italia</td>
+<td>230.562€</td>
+</tr>
+<tr>
+<td>LaFerrari</td>
+<td>1.300.000€</td>
+</tr>
+</table>
+</p>
+</div> 
