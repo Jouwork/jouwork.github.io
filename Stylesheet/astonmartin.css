@@ -165,3 +165,9 @@ table.ruben6:hover{
 
 body{ background-image:url(../imagenes/fondo.jpg);
 background-size:100% 100%;}
+
+h1.minana{
+     font-size:80px;
+     color:black;
+     font-style: arial black; 
+}
